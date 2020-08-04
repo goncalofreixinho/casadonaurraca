@@ -861,7 +861,7 @@ ul, ol {
 -----------------------*/
 
 .footer-section {
-	background: #222736;
+	background: #dfa974;
 }
 .footer-section .footer-text {
 	padding: 80px 0 30px;
@@ -876,7 +876,7 @@ ul, ol {
 	display: inline-block;
 }
 .footer-section .footer-text .ft-about p {
-	color: #aaaab3;
+	color: #DCDCDC;
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-about .fa-social a {
@@ -903,7 +903,7 @@ ul, ol {
 }
 .footer-section .footer-text .ft-contact h6 {
 	font-size: 14px;
-	color: #dfa974;
+	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 3px;
@@ -912,7 +912,7 @@ ul, ol {
 }
 .footer-section .footer-text .ft-contact ul li {
 	font-size: 16px;
-	color: #aaaab3;
+	color: #DCDCDC;
 	line-height: 32px;
 	list-style: none;
 }
@@ -926,7 +926,7 @@ ul, ol {
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-newslatter p {
-	color: #aaaab3;
+	color: #DCDCDC;
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-newslatter .fn-form {
@@ -968,7 +968,7 @@ ul, ol {
 }
 .footer-section .copyright-option ul li a {
 	font-size: 16px;
-	color: #aaaab3;
+	color: #6b6b6b;
 }
 .footer-section .copyright-option .co-text {
 	font-size: 16px;
@@ -1008,12 +1008,12 @@ ul, ol {
 	content: "";
 	font-size: 18px;
 	font-family: "FontAwesome";
-	color: #aaaab3;
+	color: #6b6b6b;
 }
 .breadcrumb-text .bt-option span {
 	display: inline-block;
 	font-size: 18px;
-	color: #aaaab3;
+	color: #6b6b6b;
 }
 /*------------------------
   About Us Page Section
