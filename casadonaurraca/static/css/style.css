@@ -112,7 +112,7 @@ ul, ol {
 	background-position: top center;
 }
 .spad {
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 100px;
 }
 .spad-2 {
@@ -416,7 +416,7 @@ ul, ol {
 	visibility: visible;
 }
 .menu-item .nav-menu .mainmenu li a {
-	font-size: 16px;
+	font-size: 20px;
 	color: #19191a;
 	margin-right: 42px;
 	font-weight: 500;
@@ -887,7 +887,7 @@ ul, ol {
 	line-height: 40px;
 	text-align: center;
 	color: #ffffff;
-	border: 1px solid #5A4D48;
+	border: 1px solid #DCDCDC;
 	border-radius: 50%;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -1954,7 +1954,7 @@ ul, ol {
 
 @media only screen and (min-width: 1554px) and (max-width: 1920px) {
 	.hp-room-items .hp-room-item .hr-text {
-		bottom: -200px;
+		bottom: -90px;
 	}
 }
 @media only screen and (min-width: 1200px) and (max-width: 1250px) {
@@ -1964,7 +1964,7 @@ ul, ol {
 }
 @media only screen and (min-width: 1200px) {
 	.container {
-		max-width: 1170px;
+		max-width: 1200px;
 	}
 }
 /* Medium Device: 1200px */
@@ -2334,4 +2334,9 @@ ul, ol {
 	.blog-details-text .comment-option .single-comment-item .sc-text a {
 		margin-bottom: 10px;
 	}
-}
+	.carousel-inner > .item > img,
+  	.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+      height:100vh;
+  }

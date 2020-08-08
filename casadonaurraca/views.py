@@ -15,13 +15,13 @@ def index(request):
 
 def about(request):
     params = {
-        'title': 'Contact Page',
+        'title': 'About',
     }
     return render(request, 'about-us.html')
 
 def contact(request):
     params = {
-        'title': 'Contact Page',
+        'title': 'Contactos',
     }
     return render(request, 'contact.html')
 

@@ -1,0 +1,58 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 08/08/2020 11:21
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-basketball:before { content: "\f100"; }
+.flaticon-bike:before { content: "\f101"; }
+.flaticon-wine:before { content: "\f102"; }
+.flaticon-pool:before { content: "\f103"; }
+.flaticon-car:before { content: "\f104"; }
+.flaticon-breakfast:before { content: "\f105"; }
+.flaticon-wifi-connection:before { content: "\f106"; }
+.flaticon-billiard:before { content: "\f107"; }
+.flaticon-tree:before { content: "\f108"; }
+    
+    $font-Flaticon-basketball: "\f100";
+    $font-Flaticon-bike: "\f101";
+    $font-Flaticon-wine: "\f102";
+    $font-Flaticon-pool: "\f103";
+    $font-Flaticon-car: "\f104";
+    $font-Flaticon-breakfast: "\f105";
+    $font-Flaticon-wifi-connection: "\f106";
+    $font-Flaticon-billiard: "\f107";
+    $font-Flaticon-tree: "\f108";
